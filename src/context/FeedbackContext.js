@@ -50,7 +50,7 @@ export const FeedbackProvider = ({children}) => {
             headers: {
                 'Content-Type': 'application/json'
             },
-            body: JSON.stringify(newFeedback),
+            body: JSON.stringify(newFeedback)
 
         })
         const data = await response.json()
