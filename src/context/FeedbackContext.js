@@ -1,5 +1,4 @@
 import { createContext, useState, useEffect } from "react";
-import { FaRocketchat } from "react-icons/fa";
 const FeedbackContext = createContext()
 
 export const FeedbackProvider = ({children}) => {
