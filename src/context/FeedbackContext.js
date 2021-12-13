@@ -16,16 +16,10 @@ export const FeedbackProvider = ({children}) => {
     //Fetch feedback
 
     const fetchFeedback = async () => {
-        try{
             const response = await fetch(`/feedback?_sort=id&_order=desc`)
             const data= await response.json()
             setFeedback(data)
             setIsLoading(false)
-        }
-        catch(e){
-            console.log(e)
-        }
-        
     }
 
     //delete feedback
