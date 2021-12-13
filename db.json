@@ -4,6 +4,16 @@
       "text": "Great product!",
       "rating": 10,
       "id": 1
+    },
+    {
+      "text": "second review",
+      "rating": 9,
+      "id": 2
+    },
+    {
+      "text": "third feed...",
+      "rating": 7,
+      "id": 3
     }
   ]
 }
